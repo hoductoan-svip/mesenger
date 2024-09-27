@@ -1,0 +1,16 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "socket.io": "^4.0.0",
+      "mongoose": "^5.11.15",
+      "express-session": "^1.17.1",
+      "body-parser": "^1.19.0",
+      "bcrypt": "^5.0.1"
+    }
+  }
